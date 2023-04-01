@@ -1,0 +1,28 @@
+{
+    "clientes": [
+        {"id": 1, "nome" :"Gallo", "email" : "gallo@gallo.com", "senha":"123456"},
+        {"id": 2, "nome" :"indiano", "email" : "indiano@val.com", "senha":"654321"},
+        {"id": 3, "nome" :"carneiro", "email" : "carneiro@carneiro.com", "senha":"beleza"},
+        {"id": 4, "nome" :"ronã", "email" : "rona@zenati.com", "senha":"ionic123"}
+    ],
+    "pedidos":[
+        {"id": 1, "id_cliente": 1, "data_pedido": "2023-03-31", "total": 193.98},
+        {"id": 2, "id_cliente": 2, "data_pedido": "2023-03-31", "total": 5949.98},
+        {"id": 3, "id_cliente": 3, "data_pedido": "2023-03-31", "total": 124.99}
+
+    ],
+    "itens_pedidos": [
+        {"id_pedido": 2 ,"id_produto": 1, "preco_unitario": 9.99, "quantidade": 5, "preco_total":49.99 },
+        {"id_pedido": 2 ,"id_produto": 2, "preco_unitario": 5899.99, "quantidade": 1, "preco_total": 5899.99 },
+        {"id_pedido": 1 ,"id_produto": 3, "preco_unitario": 123.99, "quantidade": 1, "preco_total": 123.99 },
+        {"id_pedido": 3 ,"id_produto": 5, "preco_unitario": 124.99, "quantidade": 1, "preco_total":124.99 },
+        {"id_pedido": 1 ,"id_produto": 4, "preco_unitario": 69.99, "quantidade": 1, "preco_total":69.99 }
+    ],
+    "produto": [
+        {"id": 1, "titulo": "Vestido", "descricao": "É um vestido vermelho indiano", "preco": 9.99, "nome_imagem": "vestido.jpeg"},
+        {"id": 2, "titulo": "Boi", "descricao": "É um boi", "preco": 5899.99, "nome_imagem": "boi.jpeg"},
+        {"id": 3, "titulo": "Peruca", "descricao": "Peruca loira", "preco": 123.99, "nome_imagem": "peruca_loira.jpeg"},
+        {"id": 4, "titulo": "Livro do Tratado Comunista", "descricao": "É um livro para leitura de Karl Marx", "preco": 69.99, "nome_imagem": "Tratado_comunista.jpeg"},
+        {"id": 5, "titulo": "jogo generico shooter", "descricao": "jogo de tiro", "preco": 124.99, "nome_imagem": "jogo_shooter.png"}
+    ]
+}
