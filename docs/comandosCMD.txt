@@ -4,3 +4,6 @@ npm start
 
 aplicativos
 - Insomnia
+
+
+npm i -g @ionic/cli

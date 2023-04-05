@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch estoque.json "
@@ -11,5 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiqsou/API_Ronan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaiqsou/API_Ronan/issues"
+  },
+  "homepage": "https://github.com/kaiqsou/API_Ronan#readme",
+  "description": ""
 }
