@@ -8,19 +8,19 @@
         },
         {
             "id": 2,
-            "nome": "indiano",
+            "nome": "Indiano",
             "email": "indiano@val.com",
             "senha": "654321"
         },
         {
             "id": 3,
-            "nome": "carneiro",
+            "nome": "Carneiro",
             "email": "carneiro@carneiro.com",
             "senha": "beleza"
         },
         {
             "id": 4,
-            "nome": "ronã",
+            "nome": "Ronã",
             "email": "rona@zenati.com",
             "senha": "ionic123"
         }
@@ -113,8 +113,8 @@
         },
         {
             "id": 5,
-            "titulo": "jogo generico shooter",
-            "descricao": "jogo de tiro",
+            "titulo": "Jogo genérico Shooter",
+            "descricao": "Jogo de Tiro",
             "preco": 124.99,
             "nome_imagem": "jogo_shooter.png"
         }
